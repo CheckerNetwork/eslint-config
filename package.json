@@ -1,0 +1,30 @@
+{
+  "name": "@checkernetwork/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared configuration for ESLint based on Neostandard",
+  "homepage": "https://github.com/CheckerNetwork/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/CheckerNetwork/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheckerNetwork/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "eslint.config.js",
+  "scripts": {
+    "lint": "eslint && prettier --check .",
+    "lint:fix": "eslint --fix && prettier --write ."
+  },
+  "dependencies": {
+    "neostandard": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-jsdoc": "^1.3.2",
+    "prettier-plugin-packagejson": "^2.5.10"
+  }
+}
